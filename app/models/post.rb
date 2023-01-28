@@ -1,5 +1,4 @@
 class Post < ApplicationRecord
-  
   after_save :update_posts_counter
   belongs_to :author, class_name: 'User'
   has_many :likes
