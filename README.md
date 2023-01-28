@@ -2,9 +2,6 @@
 
 <div align="center">
 
-  ![](https://img.shields.io/badge/Microverse-blueviolet)
-  <br/>
-
   <h3><b>About the project</b></h3>
 
 </div>
