@@ -66,7 +66,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+Key features of the application.
 
 - **Create User**
 - **Write a Post**
@@ -78,7 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> The project will go live after the completion.
+The project will go live after the completion.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -88,7 +88,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -106,7 +106,7 @@ Clone this repository to your desired folder:
  git clone https://github.com/iAmWaris97/diary.git
 ```
 
-> Move inside the directory:
+Move inside the directory:
 
 ```sh
  cd diary
@@ -133,7 +133,7 @@ To run the project, execute the following commands:
 ```sh
  rails db:create
 ```
-> Open the app on http://localhost:3000/
+Open the app on http://localhost:3000/
 
 <!-- ### Run tests
 
