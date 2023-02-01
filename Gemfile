@@ -72,4 +72,5 @@ group :test do
 end
 
 gem 'rspec-rails'
+gem 'rails-controller-testing'
 gem 'rubocop', '>= 1.0', '< 2.0'
