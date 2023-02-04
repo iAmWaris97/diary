@@ -1,2 +1,8 @@
-<h1>Show action of the users controller</h1>
-<h2>This page lists one of the users!</h2>
+<section class="one_user_container">
+  <%= render partial: "shared/user", locals: {user: @user || "No users found"} %>
+
+  <div class="user_bio">
+    <h3>Bio</h3>
+    <p><%= @user.bio %></p>
+  </div>
+</section>
