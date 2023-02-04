@@ -1,2 +1,8 @@
-<h1>Show action of the users controller</h1>
-<h2>This page lists one post of a user!</h2>
+<section class="full_post_container">
+  <%= render partial: 'shared/post', locals: { post: @post, show_full_post: true } %>
+  <div class="full_comments_container">
+    <% @post.comments.each do |comment| %>
+      <%= render partial: 'shared/comment', locals: { comment: comment } %>
+    <% end %>
+  </div>
+</section>
