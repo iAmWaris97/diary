@@ -6,16 +6,16 @@ class Post < ApplicationRecord
 
   validates :text, presence: true
   validates :title, presence: true, length: { in: 3..250 }
-  validates :comments_counter, comparison: { greater_than_or_equal_to: 0 }, numericality: { only_integer: true }
-  validates :likes_counter, comparison: { greater_than_or_equal_to: 0 }, numericality: { only_integer: true }
+  validates :comments_counter, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
+  validates :likes_counter, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 
   def last_five_comments
-    comments.order('created_at Desc').limit(5)
+    comments.order(created_at: :desc).limit(5)
   end
 
   private
 
   def update_posts_counter
-    author.update(postCounter: author.posts.length)
+    author.increment!(:postCounter)
   end
 end

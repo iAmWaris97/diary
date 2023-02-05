@@ -11,6 +11,12 @@
   flex-direction: column;
 }
 
+.btn_container {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
 .btn {
   display: flex;
   margin: 0 auto;
