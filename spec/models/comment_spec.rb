@@ -19,7 +19,7 @@ RSpec.describe Comment, type: :model do
   end
 
   it 'testing update_comments_counter method' do
-    author = User.create!(name: 'Waris', postCounter: 0)
+    author = User.create!(name: 'Waris', posts_counter: 0)
     post = Post.create!(author:, title: 'test post', comments_counter: 0, likes_counter: 0)
     Comment.create!(text: 'test comment', author:, post:)
     lastpost = Post.last

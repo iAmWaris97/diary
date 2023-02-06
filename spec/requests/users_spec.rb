@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'UsersController', type: :request do
-  subject { User.new(name: 'Waris', photo: 'Waris Profile', bio: 'Software Developer', postCounter: 2) }
+  subject { User.new(name: 'Waris', photo: 'Waris Profile', bio: 'Software Developer', posts_counter: 2) }
 
   before { subject.save }
 
