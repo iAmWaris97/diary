@@ -2,9 +2,10 @@ require 'rails_helper'
 
 RSpec.describe 'Posts controller Test', type: :request do
   subject do
-  @user = User.create(name: 'Waris', photo: 'photo.jpg',  bio: 'Developer', posts_counter: 3)
-  @post = Post.create(title: 'Ruby', text: 'A post from Waris about Ruby!', comments_counter: 20, likes_counter: 16, author: @user)
-end
+    @user = User.create(name: 'Waris', photo: 'photo.jpg', bio: 'Developer', posts_counter: 3)
+    @post = Post.create(title: 'Ruby', text: 'A post from Waris about Ruby!', comments_counter: 20, likes_counter: 16,
+                        author: @user)
+  end
 
   before { subject.save }
 

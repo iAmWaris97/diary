@@ -21,7 +21,7 @@ RSpec.describe 'Users controller test', type: :request do
   end
 
   describe 'GET #show' do
-  before(:example) { get user_path(id: @user.id) }
+    before(:example) { get user_path(id: @user.id) }
     it 'returns http success' do
       expect(response).to have_http_status(:ok)
     end

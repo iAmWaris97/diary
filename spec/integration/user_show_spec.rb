@@ -3,7 +3,8 @@ require 'rails_helper'
 RSpec.describe 'User show Page', type: :feature do
   before :each do
     @user = User.create(name: 'Waris Haleem', photo: 'waris.png', bio: 'Software Developer', posts_counter: 12)
-    @post = Post.create(title: 'Ruby', text: 'Ruby is fun to learn', comments_counter: 7, likes_counter: 6, author: @user)
+    @post = Post.create(title: 'Ruby', text: 'Ruby is fun to learn', comments_counter: 7, likes_counter: 6,
+                        author: @user)
   end
 
   describe 'User show page' do

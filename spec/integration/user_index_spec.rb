@@ -2,7 +2,8 @@ require 'rails_helper'
 
 RSpec.describe 'User Main Page', type: :feature do
   before :each do
-    @user = User.create(name: 'Waris Haleem', photo: 'https://avatars.githubusercontent.com/u/43011742?v=4', bio: 'Computer Engineer', posts_counter: 12)
+    @user = User.create(name: 'Waris Haleem', photo: 'https://avatars.githubusercontent.com/u/43011742?v=4',
+                        bio: 'Computer Engineer', posts_counter: 12)
   end
 
   describe 'User main page' do
