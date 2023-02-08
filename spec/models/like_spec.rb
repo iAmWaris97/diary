@@ -24,6 +24,6 @@ RSpec.describe Like, type: :model do
                         likes_counter: 16)
     Like.create!(author:, post:)
     lastpost = Post.last
-    expect(lastpost.likes_counter).to eq 1
+    expect(lastpost.likes_counter).to eq 17
   end
 end
