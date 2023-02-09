@@ -68,7 +68,10 @@
   align-items: start;
 }
 
-#user_name, #user_email, #user_password, #user_password_confirmation {
+#user_name,
+#user_email,
+#user_password,
+#user_password_confirmation {
   height: 2em;
   width: 20em;
   align-self: center;
