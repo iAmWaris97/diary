@@ -19,10 +19,11 @@ RSpec.describe Like, type: :model do
   end
 
   it 'test the update_likes_counter method' do
-    author = User.create!(name: 'Waris', posts_counter: 0)
-    post = Post.create!(author:, title: 'My first post', comments_counter: 0, likes_counter: 0)
+    author = User.create!(name: 'Waris', photo: 'photo.jpg', bio: 'Developer', posts_counter: 3)
+    post = Post.create!(author:, title: 'Ruby', text: 'A post from Waris about Ruby!', comments_counter: 20,
+                        likes_counter: 16)
     Like.create!(author:, post:)
     lastpost = Post.last
-    expect(lastpost.likes_counter).to eq 1
+    expect(lastpost.likes_counter).to eq 17
   end
 end

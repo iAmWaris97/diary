@@ -117,6 +117,7 @@ Move inside the directory:
 Install this project with:
 
 > run
+
 ```sh
  bundle install
 ```
@@ -126,13 +127,17 @@ Install this project with:
 To run the project, execute the following commands:
 
 > run
+
 ```sh
  rails server
 ```
+
 > run
+
 ```sh
  rails db:create
 ```
+
 Open the app on http://localhost:3000/
 
 <!-- ### Run tests
@@ -171,6 +176,11 @@ Example:
 - Twitter: [@iAmWaris97](https://twitter.com/iAmWaris97)
 - LinkedIn: [Waris Haleem](https://www.linkedin.com/in/waris-haleem/)
 
+👤 **Erick Hans Martinez**
+
+- GitHub: [@erickhansx](https://github.com/erickhansx)
+- Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
