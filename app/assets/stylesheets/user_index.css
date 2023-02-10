@@ -43,3 +43,38 @@
   font-size: 1.5em;
   align-self: flex-end;
 }
+
+/* Signup */
+.sign_up_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sign_up_container {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_up_container > form {
+  align-items: start;
+}
+
+#user_name,
+#user_email,
+#user_password,
+#user_password_confirmation {
+  height: 2em;
+  width: 20em;
+  align-self: center;
+}
+
+form > .actions {
+  align-self: center;
+}
