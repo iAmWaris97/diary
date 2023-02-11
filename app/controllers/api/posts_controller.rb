@@ -1,7 +1,6 @@
 require 'jwt'
 
 class Api::PostsController < Api::ApplicationController
-
   before_action :find_user, only: [:index]
 
   def index
