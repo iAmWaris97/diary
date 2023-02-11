@@ -71,9 +71,9 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'cancancan'
 gem 'database_cleaner'
 gem 'devise'
 gem 'rails-controller-testing'
 gem 'rspec-rails'
 gem 'rubocop', '>= 1.0', '< 2.0'
-gem 'cancancan'
