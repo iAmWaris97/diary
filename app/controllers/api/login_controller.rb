@@ -1,6 +1,5 @@
 require 'jwt'
 
-
 class Api::LoginController < Api::ApplicationController
   skip_before_action :authenticate_user
   @hmac_secret = 'my$ecretK3y'
