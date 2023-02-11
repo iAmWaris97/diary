@@ -78,9 +78,9 @@ Key features of the application.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The project will go live after the completion.
+The project is not currently hosted and will go live after the completion.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com)   -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

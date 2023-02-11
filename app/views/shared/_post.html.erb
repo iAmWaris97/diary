@@ -12,8 +12,9 @@
   </div>
 </div>
 
-<% if can? :delete, @post %>
-    <button type="button" class="delete_btn btn"><%= link_to "Delete Post", user_post_path(user_id: @post.author.id, id: @post.id), data: { turbo_method: :delete } %></button>
+  <% if can? :delete, post %>
+    <button type="button" class="delete_btn btn"> <%= link_to "Delete Post", user_post_path(user_id: post.author.id, id: post.id), data: { turbo_method: :delete } %>
+    </button>
   <% end %>
   
 <% end %>
