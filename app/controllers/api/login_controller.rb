@@ -19,7 +19,7 @@ class Api::LoginController < Api::ApplicationController
     end
   end
 
-  def self.hmac_secret
-    @@hmac_secret
+  class << self
+    attr_reader :hmac_secret
   end
 end
