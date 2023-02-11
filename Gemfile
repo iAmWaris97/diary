@@ -71,6 +71,7 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'cancancan'
 gem 'database_cleaner'
 gem 'devise'
 gem 'rails-controller-testing'
