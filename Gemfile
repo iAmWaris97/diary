@@ -76,4 +76,8 @@ gem 'database_cleaner'
 gem 'devise'
 gem 'rails-controller-testing'
 gem 'rspec-rails'
+
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+## JSON Web Token (JWT) for token based authentication
+gem 'jwt'
